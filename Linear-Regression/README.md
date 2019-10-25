@@ -1,9 +1,14 @@
 # Build a linear regression model for iris data set
 
-Problem: Build a linear regression model for iris data set
-Data: Iris flower data set consists of total 150 samples. Out of 150, 50 samples from each of three species of Iris (Setosa, virginica and versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Below integer values map to the each of the label type:
+## Problem: 
+Build a linear regression model for iris data set
+
+## Data: 
+Iris flower data set consists of total 150 samples. Out of 150, 50 samples from each of three species of Iris (Setosa, virginica and versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Below integer values map to the each of the label type:
 Iris-setosa → 0, Iris-versicolor → 1 and Iris-virginica → 2
-Method:
+
+
+##Method:
 1. Data collection:
 This program use built in python function to read “iris.data” file.
 2. Data shuffling:
