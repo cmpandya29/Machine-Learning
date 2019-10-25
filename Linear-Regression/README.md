@@ -22,7 +22,7 @@ For an example, if the value of k is 3 in k-fold method then data will be divide
 
 3. Model Creation:
 Model is created using below equation:
-β = (X`X)<sup>−1</sup>X`Y
+β = (X\`X)<sup>−1</sup>X\`Y
 Where β is model parameter matrix, X is predictor variable matrix and Y is response variable matrix.
 
 4. Training and testing the data:
