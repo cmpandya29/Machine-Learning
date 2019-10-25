@@ -29,3 +29,7 @@ Where β is model parameter matrix, X is predictor variable matrix and Y is resp
 For the testing of the model, K-fold cross validation method is used in the project. Three different values of k (3,5,10) is used for the testing. For every iteration in k-fold method, above formula mentioned in step 3 is used to find out the model parameter using training data. Later, same parameter is used to find value of response variable of test data.<br />
 The big advantage that comes with K-Fold Cross Validation is that its much less prone to selection bias since training and testing is performed on several different parts. In particular, if we increase the value of K, we can be even more sure of the robustness of our model since we’ve trained and tested on so many different sub-datasets.
 
+## References:
+https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f
+https://towardsdatascience.com/why-and-how-to-do-cross-validation-for-machine-learning-d5bd7e60c189
+https://www.analyticsvidhya.com/blog/2018/05/improve-model-performance-cross-validation-in-python-r/
